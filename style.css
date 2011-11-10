@@ -1,0 +1,34 @@
+/*
+Theme Name: Pursuit
+Theme URI: http://aramzs.me
+Description: Thematic child theme for George Mason University ULife Newsletter
+Author: Aram Zucker-Scharff
+Author URI: http://aramzs.me
+Template: thematic
+Version: 1.0
+Tags: thematic, two-column, green
+.
+Created for the University Life newsletter for George Mason University
+.
+*/
+
+/*Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/*Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/*Apply a basic layout*/
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/*Apply basic image styles*/
+@import url('../thematic/library/styles/images.css');
+
+/*Apply default theme styles and colors */
+@import url('library/styles/default.css');
+
+/*Prepare theme for plugins*/
+@import url('../thematic/library/styles/plugins.css');
+
+/*Prepare theme for retheming*/
+@import url('user.css');
